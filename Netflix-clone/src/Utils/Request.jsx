@@ -1,5 +1,5 @@
-// const API_KEY = import.meta.env.REACT_APP_API_KEY;
-const API_KEY = "d6f90d0d60e52a2f2b2457f2be46435b";
+const API_KEY = import.meta.env.VITE_TMDB_REACT_APP;
+//const API_KEY = "d6f90d0d60e52a2f2b2457f2be46435b";
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
     fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
